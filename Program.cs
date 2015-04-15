@@ -13,6 +13,7 @@ namespace TDS_MetaSolve
         [STAThread]
         static void Main()
         {
+            License lic = new License();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
