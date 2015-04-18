@@ -894,3 +894,44 @@
    at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
    at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
    at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/194632:INFO:(0)] WebCore is now online.
+[0417/194632:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/194727:INFO:(0)] WebCore is now online.
+[0417/194727:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/194735:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/194735:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/195344:INFO:(0)] WebCore is now online.
+[0417/195344:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/195543:INFO:(0)] WebCore is now online.
+[0417/195543:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/195551:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/195643:INFO:(0)] WebCore is now online.
+[0417/195643:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/195722:INFO:(0)] WebCore is now online.
+[0417/195722:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/195848:INFO:(0)] WebCore is now online.
+[0417/195848:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200017:INFO:(0)] WebCore is now online.
+[0417/200017:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200057:INFO:(0)] WebCore is now online.
+[0417/200057:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200206:INFO:(0)] WebCore is now online.
+[0417/200206:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200426:INFO:(0)] WebCore is now online.
+[0417/200426:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200728:INFO:(0)] WebCore is now online.
+[0417/200728:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200749:INFO:(0)] WebCore is now online.
+[0417/200749:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200913:INFO:(0)] WebCore is now online.
+[0417/200913:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/200942:INFO:(0)] WebCore is now online.
+[0417/200942:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/201019:INFO:(0)] WebCore is now online.
+[0417/201019:INFO:(0)] Running Awesomium 1.7.5.0

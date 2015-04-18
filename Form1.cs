@@ -82,15 +82,29 @@ for (int i = 0; i < splitMetaSolveData.Length; i++)
                 <!DOCTYPE html>
                 <html>
                 <script>
-
                 </script>
                 <body onload='myFunction()'>
                 <canvas id='myCanvas' width='437'  height='581' style='border:1px solid #d3d3d3;'>
                 Your browser does not support the HTML5 canvas tag.</canvas>
                 <script>" +
-                    "function myFunction(){try{" +
-                    _jsArray1 + ";" + _jsArray2 +
-                    ";" +
+_jsArray1 +
+@"
+function GetStringInArray(portNumber)
+{
+    //alert('In get stringin arrray: ' + metaSolve1.length);
+
+	for(var i = 0; i < metaSolve1.length; i++)
+    {
+        var splitter = metaSolve1[i].split(',');
+        //alert(splitter[2] + '    ' + portNumber);
+        if(splitter[2] == portNumber){
+            return metaSolve1[i];
+        }
+    }
+    return 'No data for this port!';
+}
+"
+                    + "function myFunction(){try{" +
                     @"var c = document.getElementById('myCanvas');
                     c.addEventListener('mousedown', function(evt) {
                     alert(metaSolve1[0]);
@@ -109,13 +123,7 @@ for (int i = 0; i < splitMetaSolveData.Length; i++)
 //alert('mm');
 //alert(portNumber);
                     message = 'Port: ' + portNumber;
-if(portNumber < 5000){                    
-document.getElementById('dynamicContent').innerHTML = message + ' ' + metaSolve1[portNumber];
-}
-else
-{
-document.getElementById('dynamicContent').innerHTML = '2: ' + message + ' ' + metaSolve2[portNumber-290];
-}
+                    document.getElementById('dynamicContent').innerHTML = message + ' ' + GetStringInArray(portNumber);
                     //alert( message);
                     }, false);
                     function getMousePos(canvas, evt) {
