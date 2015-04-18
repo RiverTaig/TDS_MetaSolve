@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e7f5e9aa-d9a0-4c80-a42f-c3dfc0037c20" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://lake/TDS/MetaSolve.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PonDistribution1.wsdl" MetadataType="Wsdl" ID="44dc6521-b6a4-4524-b215-f2b44a2d45ab" SourceId="1" SourceUrl="http://lake/TDS/MetaSolve.svc?wsdl" />
+    <MetadataFile FileName="MetaSolve3.xsd" MetadataType="Schema" ID="d68a2c5e-4f95-4db9-8aca-4b96a2f81967" SourceId="1" SourceUrl="http://lake/TDS/MetaSolve.svc?xsd=xsd2" />
+    <MetadataFile FileName="MetaSolve31.xsd" MetadataType="Schema" ID="1ade5938-75bc-47ec-87ed-3fc915742fea" SourceId="1" SourceUrl="http://lake/TDS/MetaSolve.svc?xsd=xsd1" />
+    <MetadataFile FileName="MetaSolve32.xsd" MetadataType="Schema" ID="3528c8ac-31e2-42b7-b497-51a8a042aa62" SourceId="1" SourceUrl="http://lake/TDS/MetaSolve.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

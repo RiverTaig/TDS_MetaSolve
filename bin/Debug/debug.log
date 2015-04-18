@@ -1,0 +1,896 @@
+[0416/115014:INFO:(0)] WebCore is now online.
+[0416/115014:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115059:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/115211:INFO:(0)] WebCore is now online.
+[0416/115211:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115524:INFO:(0)] WebCore is now online.
+[0416/115524:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115528:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/115538:INFO:(0)] WebCore is now online.
+[0416/115538:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115542:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/115848:INFO:(0)] WebCore is now online.
+[0416/115848:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115854:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/115911:INFO:(0)] WebCore is now online.
+[0416/115911:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115915:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/115922:INFO:(0)] WebCore is now online.
+[0416/115922:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115925:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/115945:INFO:(0)] WebCore is now online.
+[0416/115945:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/115954:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120003:INFO:(0)] WebCore is now online.
+[0416/120003:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120008:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120054:INFO:(0)] WebCore is now online.
+[0416/120054:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120113:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120300:INFO:(0)] WebCore is now online.
+[0416/120300:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120305:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120314:INFO:(0)] WebCore is now online.
+[0416/120314:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120318:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120329:INFO:(0)] WebCore is now online.
+[0416/120329:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120340:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120419:INFO:(0)] WebCore is now online.
+[0416/120419:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120425:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120434:INFO:(0)] WebCore is now online.
+[0416/120434:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120501:INFO:(0)] WebCore is now online.
+[0416/120501:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120617:INFO:(0)] WebCore is now online.
+[0416/120617:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120624:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0416/120624:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/120712:INFO:(0)] WebCore is now online.
+[0416/120712:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/120928:INFO:(0)] WebCore is now online.
+[0416/120928:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/121411:INFO:(0)] WebCore is now online.
+[0416/121411:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/153006:INFO:(0)] WebCore is now online.
+[0416/153006:INFO:(0)] Running Awesomium 1.7.5.0
+[0416/153025:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0416/153027:INFO:(0)] WebCore is now online.
+[0416/153027:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/075432:INFO:(0)] WebCore is now online.
+[0417/075432:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/075435:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/080204:INFO:(0)] WebCore is now online.
+[0417/080204:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080441:INFO:(0)] WebCore is now online.
+[0417/080441:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080523:INFO:(0)] WebCore is now online.
+[0417/080523:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080534:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/080554:INFO:(0)] WebCore is now online.
+[0417/080554:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080617:INFO:(0)] WebCore is now online.
+[0417/080617:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080732:INFO:(0)] WebCore is now online.
+[0417/080732:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080739:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/080753:INFO:(0)] WebCore is now online.
+[0417/080753:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080807:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/080807:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/080825:INFO:(0)] WebCore is now online.
+[0417/080825:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080835:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/080848:INFO:(0)] WebCore is now online.
+[0417/080848:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080857:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/080910:INFO:(0)] WebCore is now online.
+[0417/080910:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/080930:INFO:(0)] WebCore is now online.
+[0417/080930:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081052:INFO:(0)] WebCore is now online.
+[0417/081052:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081106:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/081119:INFO:(0)] WebCore is now online.
+[0417/081119:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081150:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/081248:INFO:(0)] WebCore is now online.
+[0417/081248:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081313:INFO:(0)] WebCore is now online.
+[0417/081313:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081428:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/081441:INFO:(0)] WebCore is now online.
+[0417/081441:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081500:INFO:(0)] WebCore is now online.
+[0417/081500:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081551:INFO:(0)] WebCore is now online.
+[0417/081551:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081631:INFO:(0)] WebCore is now online.
+[0417/081631:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081729:INFO:(0)] WebCore is now online.
+[0417/081729:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081846:INFO:(0)] WebCore is now online.
+[0417/081846:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/081918:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/081940:INFO:(0)] WebCore is now online.
+[0417/081940:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082030:INFO:(0)] WebCore is now online.
+[0417/082030:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082100:INFO:(0)] WebCore is now online.
+[0417/082100:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082202:INFO:(0)] WebCore is now online.
+[0417/082202:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082223:INFO:(0)] WebCore is now online.
+[0417/082223:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082234:INFO:(0)] WebCore is now online.
+[0417/082234:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082241:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/082254:INFO:(0)] WebCore is now online.
+[0417/082254:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082309:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/082329:INFO:(0)] WebCore is now online.
+[0417/082329:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082357:INFO:(0)] WebCore is now online.
+[0417/082357:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082541:INFO:(0)] WebCore is now online.
+[0417/082541:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082606:INFO:(0)] WebCore is now online.
+[0417/082606:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082628:INFO:(0)] WebCore is now online.
+[0417/082628:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082751:INFO:(0)] WebCore is now online.
+[0417/082751:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082800:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/082852:INFO:(0)] WebCore is now online.
+[0417/082852:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082912:INFO:(0)] WebCore is now online.
+[0417/082912:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/082923:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/082951:INFO:(0)] WebCore is now online.
+[0417/082951:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083007:INFO:(0)] WebCore is now online.
+[0417/083007:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083023:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/083023:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/083122:INFO:(0)] WebCore is now online.
+[0417/083122:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083139:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/083314:INFO:(0)] WebCore is now online.
+[0417/083314:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083341:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/083341:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/083432:INFO:(0)] WebCore is now online.
+[0417/083432:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083501:INFO:(0)] WebCore is now online.
+[0417/083501:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083538:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/083538:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/083601:INFO:(0)] WebCore is now online.
+[0417/083601:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083631:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/083713:INFO:(0)] WebCore is now online.
+[0417/083713:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083840:INFO:(0)] WebCore is now online.
+[0417/083840:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/083919:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/083919:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/083947:INFO:(0)] WebCore is now online.
+[0417/083947:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/084019:INFO:(0)] WebCore is now online.
+[0417/084019:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/085122:INFO:(0)] WebCore is now online.
+[0417/085122:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/085133:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/085250:INFO:(0)] WebCore is now online.
+[0417/085250:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/085310:INFO:(0)] WebCore is now online.
+[0417/085310:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/085812:INFO:(0)] WebCore is now online.
+[0417/085812:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090140:INFO:(0)] WebCore is now online.
+[0417/090140:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090146:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/090204:INFO:(0)] WebCore is now online.
+[0417/090204:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090517:INFO:(0)] WebCore is now online.
+[0417/090517:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090523:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/090534:INFO:(0)] WebCore is now online.
+[0417/090534:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090542:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/090542:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/090608:INFO:(0)] WebCore is now online.
+[0417/090608:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090615:INFO:(0)] WebCore is now online.
+[0417/090615:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090644:INFO:(0)] WebCore is now online.
+[0417/090644:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/090648:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/090648:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/090812:INFO:(0)] WebCore is now online.
+[0417/090812:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/091204:INFO:(0)] WebCore is now online.
+[0417/091204:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/091210:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/093001:INFO:(0)] WebCore is now online.
+[0417/093001:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093119:INFO:(0)] WebCore is now online.
+[0417/093119:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093318:INFO:(0)] WebCore is now online.
+[0417/093318:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093331:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/093352:INFO:(0)] WebCore is now online.
+[0417/093352:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093724:INFO:(0)] WebCore is now online.
+[0417/093724:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093805:INFO:(0)] WebCore is now online.
+[0417/093805:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093811:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/093937:INFO:(0)] WebCore is now online.
+[0417/093937:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/093943:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/093943:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/094034:INFO:(0)] WebCore is now online.
+[0417/094034:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094218:INFO:(0)] WebCore is now online.
+[0417/094218:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094315:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/094330:INFO:(0)] WebCore is now online.
+[0417/094330:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094401:INFO:(0)] WebCore is now online.
+[0417/094401:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094552:INFO:(0)] WebCore is now online.
+[0417/094552:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094559:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/094628:INFO:(0)] WebCore is now online.
+[0417/094628:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094848:INFO:(0)] WebCore is now online.
+[0417/094848:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094900:INFO:(0)] WebCore is now online.
+[0417/094900:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/094921:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/095054:INFO:(0)] WebCore is now online.
+[0417/095054:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/121526:INFO:(0)] WebCore is now online.
+[0417/121526:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/121609:INFO:(0)] WebCore is now online.
+[0417/121609:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/121943:INFO:(0)] WebCore is now online.
+[0417/121943:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/122118:INFO:(0)] WebCore is now online.
+[0417/122118:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123446:INFO:(0)] WebCore is now online.
+[0417/123446:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123620:INFO:(0)] WebCore is now online.
+[0417/123620:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123633:INFO:(0)] WebCore is now online.
+[0417/123633:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123706:INFO:(0)] WebCore is now online.
+[0417/123706:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123718:INFO:(0)] WebCore is now online.
+[0417/123718:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123840:INFO:(0)] WebCore is now online.
+[0417/123840:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/123915:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/124051:INFO:(0)] WebCore is now online.
+[0417/124051:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124125:INFO:(0)] WebCore is now online.
+[0417/124125:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124149:INFO:(0)] WebCore is now online.
+[0417/124149:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124157:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/124224:INFO:(0)] WebCore is now online.
+[0417/124224:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124231:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/124304:INFO:(0)] WebCore is now online.
+[0417/124304:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124312:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/124328:INFO:(0)] WebCore is now online.
+[0417/124328:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124400:INFO:(0)] WebCore is now online.
+[0417/124400:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124444:INFO:(0)] WebCore is now online.
+[0417/124444:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124532:INFO:(0)] WebCore is now online.
+[0417/124532:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124539:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/124654:INFO:(0)] WebCore is now online.
+[0417/124654:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/124721:INFO:(0)] WebCore is now online.
+[0417/124721:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125024:INFO:(0)] WebCore is now online.
+[0417/125024:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125045:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125111:INFO:(0)] WebCore is now online.
+[0417/125111:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125132:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/125132:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125155:INFO:(0)] WebCore is now online.
+[0417/125155:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125250:INFO:(0)] WebCore is now online.
+[0417/125250:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125352:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/125352:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125427:INFO:(0)] WebCore is now online.
+[0417/125427:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125446:INFO:(0)] WebCore is now online.
+[0417/125446:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125507:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/125507:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125533:INFO:(0)] WebCore is now online.
+[0417/125533:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125557:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125612:INFO:(0)] WebCore is now online.
+[0417/125612:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125631:INFO:(0)] WebCore is now online.
+[0417/125631:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125642:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/125642:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125649:INFO:(0)] WebCore is now online.
+[0417/125649:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125657:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/125657:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/125732:INFO:(0)] WebCore is now online.
+[0417/125732:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/125818:INFO:(0)] WebCore is now online.
+[0417/125818:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/130306:INFO:(0)] WebCore is now online.
+[0417/130306:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/130318:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/130757:INFO:(0)] WebCore is now online.
+[0417/130757:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/130811:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/130948:INFO:(0)] WebCore is now online.
+[0417/130948:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131003:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/131102:INFO:(0)] WebCore is now online.
+[0417/131102:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131114:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/131114:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/131145:INFO:(0)] WebCore is now online.
+[0417/131145:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131210:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/131237:INFO:(0)] WebCore is now online.
+[0417/131237:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131457:INFO:(0)] WebCore is now online.
+[0417/131457:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131510:INFO:(0)] WebCore is now online.
+[0417/131510:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131639:INFO:(0)] WebCore is now online.
+[0417/131639:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131656:INFO:(0)] WebCore is now online.
+[0417/131656:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131719:INFO:(0)] WebCore is now online.
+[0417/131719:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131727:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/131734:INFO:(0)] WebCore is now online.
+[0417/131734:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131745:INFO:(0)] WebCore is now online.
+[0417/131745:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131756:INFO:(0)] WebCore is now online.
+[0417/131756:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131807:INFO:(0)] WebCore is now online.
+[0417/131807:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131812:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/131812:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/131823:INFO:(0)] WebCore is now online.
+[0417/131823:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131835:INFO:(0)] WebCore is now online.
+[0417/131835:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131846:INFO:(0)] WebCore is now online.
+[0417/131846:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/131858:INFO:(0)] WebCore is now online.
+[0417/131858:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/132013:INFO:(0)] WebCore is now online.
+[0417/132013:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/132325:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/132325:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/132359:INFO:(0)] WebCore is now online.
+[0417/132359:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/133828:INFO:(0)] WebCore is now online.
+[0417/133828:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/140634:INFO:(0)] WebCore is now online.
+[0417/140634:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/140717:INFO:(0)] WebCore is now online.
+[0417/140717:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/140800:INFO:(0)] WebCore is now online.
+[0417/140800:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/140835:INFO:(0)] WebCore is now online.
+[0417/140835:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/140853:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/154136:INFO:(0)] WebCore is now online.
+[0417/154136:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/154144:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/160409:INFO:(0)] WebCore is now online.
+[0417/160409:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/161217:INFO:(0)] WebCore is now online.
+[0417/161217:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/161245:INFO:(0)] WebCore is now online.
+[0417/161245:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/161717:INFO:(0)] WebCore is now online.
+[0417/161717:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/162523:INFO:(0)] WebCore is now online.
+[0417/162523:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/162537:INFO:(0)] WebCore is now online.
+[0417/162537:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/162959:INFO:(0)] WebCore is now online.
+[0417/162959:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/164300:INFO:(0)] WebCore is now online.
+[0417/164300:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/164555:INFO:(0)] WebCore is now online.
+[0417/164555:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/164604:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/165503:INFO:(0)] WebCore is now online.
+[0417/165503:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/165655:INFO:(0)] WebCore is now online.
+[0417/165655:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/165702:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/165702:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/165954:INFO:(0)] WebCore is now online.
+[0417/165954:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/170010:INFO:(0)] WebCore is now online.
+[0417/170010:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/170018:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/170023:INFO:(0)] WebCore is now online.
+[0417/170023:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/171009:INFO:(0)] WebCore is now online.
+[0417/171009:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/172728:INFO:(0)] WebCore is now online.
+[0417/172728:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/173200:INFO:(0)] WebCore is now online.
+[0417/173200:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/173210:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/173210:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/173414:INFO:(0)] WebCore is now online.
+[0417/173414:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/173534:INFO:(0)] WebCore is now online.
+[0417/173534:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/173555:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/174108:INFO:(0)] WebCore is now online.
+[0417/174108:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/174714:INFO:(0)] WebCore is now online.
+[0417/174714:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/175728:INFO:(0)] WebCore is now online.
+[0417/175728:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/180503:INFO:(0)] WebCore is now online.
+[0417/180503:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/180541:INFO:(0)] WebCore is now online.
+[0417/180541:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/180548:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/181319:INFO:(0)] WebCore is now online.
+[0417/181319:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/181433:INFO:(0)] WebCore is now online.
+[0417/181433:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/181653:INFO:(0)] WebCore is now online.
+[0417/181653:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/181743:INFO:(0)] WebCore is now online.
+[0417/181743:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/181945:INFO:(0)] WebCore is now online.
+[0417/181945:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/182029:INFO:(0)] WebCore is now online.
+[0417/182029:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/182159:INFO:(0)] WebCore is now online.
+[0417/182159:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/182448:INFO:(0)] WebCore is now online.
+[0417/182448:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183031:INFO:(0)] WebCore is now online.
+[0417/183031:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183220:INFO:(0)] WebCore is now online.
+[0417/183220:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183330:INFO:(0)] WebCore is now online.
+[0417/183330:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183403:INFO:(0)] WebCore is now online.
+[0417/183403:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183417:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/183449:INFO:(0)] WebCore is now online.
+[0417/183449:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183629:INFO:(0)] WebCore is now online.
+[0417/183629:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183724:INFO:(0)] WebCore is now online.
+[0417/183724:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/183811:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/183948:INFO:(0)] WebCore is now online.
+[0417/183948:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184146:INFO:(0)] WebCore is now online.
+[0417/184146:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184433:INFO:(0)] WebCore is now online.
+[0417/184433:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184454:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/184517:INFO:(0)] WebCore is now online.
+[0417/184517:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184525:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/184538:INFO:(0)] WebCore is now online.
+[0417/184538:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184604:INFO:(0)] WebCore is now online.
+[0417/184604:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184616:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/184724:INFO:(0)] WebCore is now online.
+[0417/184724:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184823:INFO:(0)] WebCore is now online.
+[0417/184823:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/184956:INFO:(0)] WebCore is now online.
+[0417/184956:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/185007:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/185007:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/185055:INFO:(0)] WebCore is now online.
+[0417/185055:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/185246:INFO:(0)] WebCore is now online.
+[0417/185246:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/185342:INFO:(0)] WebCore is now online.
+[0417/185342:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/185420:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/185543:INFO:(0)] WebCore is now online.
+[0417/185543:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/185732:INFO:(0)] WebCore is now online.
+[0417/185732:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/185825:INFO:(0)] WebCore is now online.
+[0417/185825:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190021:INFO:(0)] WebCore is now online.
+[0417/190021:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190315:INFO:(0)] WebCore is now online.
+[0417/190315:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190423:INFO:(0)] WebCore is now online.
+[0417/190423:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190440:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/190449:INFO:(0)] WebCore is now online.
+[0417/190449:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190507:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/190507:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/190514:INFO:(0)] WebCore is now online.
+[0417/190514:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190629:INFO:(0)] WebCore is now online.
+[0417/190629:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/190840:INFO:(0)] WebCore is now online.
+[0417/190840:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191133:INFO:(0)] WebCore is now online.
+[0417/191133:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191428:INFO:(0)] WebCore is now online.
+[0417/191428:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191450:INFO:(0)] WebCore is now online.
+[0417/191450:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191717:INFO:(0)] WebCore is now online.
+[0417/191717:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191756:INFO:(0)] WebCore is now online.
+[0417/191756:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191804:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/191811:INFO:(0)] WebCore is now online.
+[0417/191811:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191840:INFO:(0)] WebCore is now online.
+[0417/191840:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191851:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/191851:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/191856:INFO:(0)] WebCore is now online.
+[0417/191856:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191904:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/191913:INFO:(0)] WebCore is now online.
+[0417/191913:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191921:INFO:(0)] WebCore is now online.
+[0417/191921:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/191951:INFO:(0)] WebCore is now online.
+[0417/191951:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192001:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/192001:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/192025:INFO:(0)] WebCore is now online.
+[0417/192025:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192050:INFO:(0)] WebCore is now online.
+[0417/192050:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192114:INFO:(0)] WebCore is now online.
+[0417/192114:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192125:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/192125:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/192143:INFO:(0)] WebCore is now online.
+[0417/192143:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192200:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/192222:INFO:(0)] WebCore is now online.
+[0417/192222:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192232:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/192232:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/192355:INFO:(0)] WebCore is now online.
+[0417/192355:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/192449:INFO:(0)] WebCore is now online.
+[0417/192449:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193100:INFO:(0)] WebCore is now online.
+[0417/193100:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193112:ERROR:ipc_channel_win.cc(360)] pipe error: 232
+[0417/193112:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/193136:INFO:(0)] WebCore is now online.
+[0417/193136:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193224:INFO:(0)] WebCore is now online.
+[0417/193224:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193429:INFO:(0)] WebCore is now online.
+[0417/193429:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193442:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/193510:INFO:(0)] WebCore is now online.
+[0417/193510:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193537:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()
+[0417/193626:INFO:(0)] WebCore is now online.
+[0417/193626:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193646:INFO:(0)] WebCore is now online.
+[0417/193646:INFO:(0)] Running Awesomium 1.7.5.0
+[0417/193724:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: An error occurred invoking the method.  The destination thread no longer exists.
+   at System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   at Awesomium.Core.WebCore.SwoYrDtsHvuLJUY08ID(Object , Object , Object )
+   at Awesomium.Core.WebCore.wQrBKtHAGh()

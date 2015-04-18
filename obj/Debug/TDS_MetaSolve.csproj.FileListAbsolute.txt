@@ -5,3 +5,5 @@ C:\Code\Git\TDS_MetaSolve\bin\Debug\TDS_MetaSolve.exe
 C:\Code\Git\TDS_MetaSolve\bin\Debug\TDS_MetaSolve.pdb
 C:\Code\Git\TDS_MetaSolve\obj\Debug\TDS_MetaSolve.exe
 C:\Code\Git\TDS_MetaSolve\obj\Debug\TDS_MetaSolve.pdb
+C:\Code\Git\TDS_MetaSolve\obj\Debug\TDS_MetaSolve.Form1.resources
+C:\Code\Git\TDS_MetaSolve\bin\Debug\TDS_MetaSolve.exe.config
