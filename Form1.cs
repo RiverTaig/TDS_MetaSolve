@@ -8,9 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
-
+using System.Net;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 namespace TDS_MetaSolve
 {
+    
     public partial class Form1 : Form
     {
         public Form1()
@@ -20,53 +23,16 @@ namespace TDS_MetaSolve
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MetaSolveWebService.PonDistributionClient pdc = new MetaSolveWebService.PonDistributionClient();
-            string metaSolveData =  pdc.GetData("FDHAJ", 2);
-            //MessageBox.Show ("river " + metaSolveData);
-            string[] splitMetaSolveData = metaSolveData.Split('~');
-            //skip the first
-            StringBuilder jsArray1 = new StringBuilder();
-            
-            jsArray1.Append("var metaSolve1 = [");
-//int splitMarker = 200; //works with 200 & 96, but breaks at 97
-//int numInGroup2 = 95;
-for (int i = 0; i < splitMetaSolveData.Length; i++)
-            {
-                string line = splitMetaSolveData[i];
-                if (i > 0)
-                {
-                    jsArray1.Append(",");
-                }
-                jsArray1.Append("'" + line + "'");
-            }
-            jsArray1.Append("];");
-            _jsArray1 = jsArray1.ToString();
-            /*StringBuilder jsArray2 = new StringBuilder();
-            jsArray2.Append("var metaSolve2 = [");
-            for (int i = splitMarker ; i < splitMarker  + numInGroup2; i++)
-            {
+            WebClient wc = new WebClient();
 
-                    string line = splitMetaSolveData[i];
-                    if (i > splitMarker)
-                    {
-                        jsArray2.Append(",");
-                    }
-                    jsArray2.Append("'" + line + "'");
-                
-            }
-            jsArray2.Append("];");   
+            Stream data = wc.OpenRead("http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=asdf&FiberName=asdf&f=pjson");
+            StreamReader reader = new StreamReader(data);
+            string json = reader.ReadToEnd();
+            _jsArray1 = json;
 
-            _jsArray1 = jsArray1.ToString();
-            //MessageBox.Show(_jsArray1);
-            System.Diagnostics.Trace.WriteLine(_jsArray1);
-            _jsArray2 = jsArray2.ToString(); */
-            _jsArray2 = "[];";
-            //MessageBox.Show(_jsArray2);
-            System.Diagnostics.Trace.WriteLine(_jsArray2);
-            MessageBox.Show("done");
-            //_jsArray = "var cars = ['Saab','Volvo','BMW'];";
-            //int len = _jsArray.Length;
-            //MessageBox.Show(len.ToString());
+            List<MetaSolveData> msLines = JsonConvert.DeserializeObject<List<MetaSolveData>>(json);
+
+
         }
         private int x = 0;
         private void Form1_Paint(object sender, PaintEventArgs e)

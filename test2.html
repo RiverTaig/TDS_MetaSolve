@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>MetaSolve Viewer</title>
+    <style type="text/css">
+        #port{
+            color:#2FB4E9;
+            font-weight: bold;
+            font-size:14px;
+        } 
+        #dynamicContent{
+            position: absolute;
+            left: 450px;
+            top: 10px;
+            z-index: 5;
+        } 
+        #header{
+            color:#000000;
+            background-color: #009B3E;
+            font-weight: bold;
+            width: 100px;
+            font-size:12px;
+        }
+        #value{
+            color:#000000;
+            background-color: #FFFFFF;
+            font-size:10px;
+        }        
+
+    </style>
+   
+    <script src="https://code.jquery.com/jquery-1.10.2.js" > </script>
+    <script >
+        var c = "";
+        var cw = 0;
+        var ch = 0;
+        $( document ).ready(function() {
+            //alert("ready");
+            c = document.getElementById('myCanvas');
+            cw = c.width;
+            ch = c.height;
+            //alert("c is set " + c.width);
+            CreatePorts();
+          });
+        function getMousePos( evt) {
+            return {
+                x: evt.clientX ,
+                y: evt.clientY 
+                };
+        }
+        
+        function GetPortNumberUnderCursor (evt,x,y){
+            if(x == 0){
+                //alert("in getMousePos");
+                var mousePos = getMousePos( evt);
+                x = mousePos.x;
+                y = mousePos.y;
+            }
+            var canvasWidth = cw - 5;
+            var canvasHeight = ch - 5;
+            var columnWidth = (canvasWidth / 18)   ;
+            var rowHeight = (canvasHeight / 24)   ;
+            var col = Math.round(x / columnWidth,0);
+            var row = Math.round(y / rowHeight,0);
+            var portNumber = ((row - 1) * 18 ) + col;
+
+            return portNumber;
+        }
+
+        function GetMetaSolveData() {
+            //alert('GetMetaSolveData');
+            $.ajax({
+                url: "http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=asdf&FiberName=asdf&f=pjson"
+            }).then(function(data) {
+                
+                metaSolveData = $.parseJSON(data);
+                ColorGrid()
+                //alert("asdf " + data);
+            });
+
+        }
+        function GetMSDAtPort(portNumber){
+            try{
+                for (var i = 0; i < metaSolveData.length  ; i++) {
+                    if(metaSolveData[i].FiberPair == portNumber){
+                        return metaSolveData[i];
+                    }
+                }
+                return null;
+            }
+            catch(Exception){
+                alert("Exception in GetMSDAtPort");
+                return metaSolveData[0];
+            }
+        }
+        function ColorGrid()
+        {
+                var c = document.getElementById('myCanvas');
+                c.addEventListener('mousemove', function(evt) {
+
+                    var portNumber = GetPortNumberUnderCursor(evt,0,0);            
+                    //alert(portNumber);       
+                    var msd = GetMSDAtPort(portNumber); //metaSolveData[portNumber-1];
+                    var message = "No Data";
+                    if(msd != null){
+                        message = 
+                        "<div id='port'>PORT: " + portNumber  + "</div><br>"
+                        + "<div id='header'>Exchange</div>"
+                        + "<div id='value'>" + msd.Exchange + "</div>"
+                        + "<div id='header'>Cable Name</div>"
+                        + "<div id='value'>" + msd.CableName + "</div>"
+                        + "<div id='header'>Fiber Pair</div>"
+                        + "<div id='value'>" + msd.FiberPair + "</div>"
+                        + "<div id='header'>Remarks</div>"
+                        + "<div id='value'>" + msd.Remarks + "</div>"
+                        + "<div id='header'>Status</div>"
+                        + "<div id='value'>" + msd.Status + "</div>"
+                        + "<div id='header'>Cable Type</div>"
+                        + "<div id='value'>" + msd.CableType + "</div>"
+                        + "<div id='header'>DSA Number</div>"
+                        + "<div id='value'>" + msd.DSANum + "</div>"
+                        + "<div id='header'>Access Point</div>"
+                        + "<div id='value'>" + msd.AccessPoint + "</div>"
+                        + "<div id='header'>Route</div>"
+                        + "<div id='value'>" + msd.Route + "</div>"
+                        + "<div id='header'>Pedestal</div>"
+                        + "<div id='value'>" + msd.Pedestal + "</div>"
+                        + "<div id='header'>AP Address</div>"
+                        + "<div id='value'>" + msd.ApAddress + "</div>"
+                        + "<div id='header'>Map</div>"
+                        + "<div id='value'>" + msd.Map + "</div>"
+                        + "<div id='header'>Condition</div>"
+                        + "<div id='value'>" + msd.Condition + "</div>"
+                        + "<div id='header'>Comment</div>"
+                        + "<div id='value'>" + msd.Comment + "</div>"
+                        + "<div id='header'>Circuit ID</div>"
+                        + "<div id='value'>" + msd.CircuitID + "</div>"
+                        + "<div id='header'>Circuit Design ID</div>"
+                        + "<div id='value'>" + msd.CircuitDesignID + "</div>"
+                        + "<div id='header'>EUL Name</div>"
+                        + "<div id='value'>" + msd.EULName + "</div>"
+                        + "<div id='header'>Street Address</div>"
+                        + "<div id='value'>" + msd.StreetAddress + "</div>"
+                        + "<div id='header'>Additional Info</div>"
+                        + "<div id='value'>" + msd.AddlInfo + "</div>"
+                        + "<div id='header'>CLLI Code</div>"
+                        + "<div id='value'>" + msd.CLLICode + "</div>"
+                        ;
+                    }
+                    document.getElementById('dynamicContent').innerHTML = message ;//+ ' ' + metaSolve[portNumber];
+                }, false);
+
+                var ctx = c.getContext('2d');
+                var counter = 0;
+                for(c = 0; c < 24; c++){
+                    for(r=0; r < 18; r++){
+                        counter ++;
+                        ctx.beginPath();
+                        var x = 5 + (r * 24);
+                        var y = 5 + (c*24);
+                        //ctx.arc(X,20 + (c*30),10,0,2*Math.PI);
+                        ctx.rect(x, y, 20,20);
+                        var num = Math.random();
+                        //var status = "Inservice";
+
+                        var status = "NOT Inservice" ;
+                        var xx = x+10;
+                        var yy = y+10;
+                        var pn = GetPortNumberUnderCursor(null,xx,yy);
+
+                        var msdAtPort = GetMSDAtPort(pn);
+                        try{
+                            if(msdAtPort.Status == "Inservice")
+                            {
+                                //alert("Inservice");
+                                status = "Inservice";
+                            }
+                            else
+                            {
+                                //alert("not inservice");
+                            }
+                        }
+                        catch(Exception){
+                            //alert("error");
+                        }
+
+
+                        
+                        if(status == "Inservice"){
+                        //if(num > .5){ //if(msdAtPort.Status == "inservice"){
+                            ctx.fillStyle = '#ffdd00';
+                            
+                        }
+                        else
+                        {
+                            ctx.fillStyle = '#a0a0a0';
+                        }
+                        ctx.fill();
+                        ctx.lineWidth = 1;
+                        ctx.strokeStyle = '#000000';
+                        ctx.stroke();
+                        ctx.fillStyle = 'black';
+                        ctx.font = 'bold 10px Arial';
+                        var offset = 2;
+                        if(counter < 200) {offset = 1;} 
+                        if(counter < 100) {offset = 4;}                            
+                        if(counter < 10) {
+                            offset = 7;
+                        }
+                        var xOff = x+offset;
+                        ctx.fillText(counter, xOff, y+ 14);
+                    }   
+                }            
+        }
+        var metaSolveData = [];
+        function CreatePorts(){
+            try{
+                GetMetaSolveData();
+
+
+            }
+            catch(Exception){
+                alert("error " + Exception);
+            }
+        }
+    </script> 
+</head>
+<body >
+    <canvas id='myCanvas' width='437px'  height='581px' style='border:1px solid #d3d3d3;'>
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <div id='dynamicContent' > Content here </div>
+</body>
+</html>

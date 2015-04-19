@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ESRI.Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.esri.com/Desktop/AddIns">
+  <Name>TDS_SOE</Name>
+  <AddInID>3ae15c2e-ee1e-4c92-92fb-8cd836d6a85e</AddInID>
+  <Description>Insert SOE package description here</Description>
+  <Version>1.0</Version>
+  <Author>demo</Author>
+  <Company>Insert Company Name Here</Company>
+  <Date>2015-04-18T10:14:58</Date>
+  <Targets>
+    <Target name="Server" version="10.2" />
+  </Targets>
+  <AddIn language="CLR" library="TDS_SOE.dll" namespace="TDS_SOE">
+    <ServerObjectType>
+      <Name>MapServer</Name>
+      <ExtensionTypes>
+        <ExtensionType id="TDS_SOE.TDS_SOE" library="TDS_SOE.dll" class="TDS_SOE.TDS_SOE">
+          <Name>TDS_SOE</Name>
+          <DisplayName>TDS_SOE</DisplayName>
+          <Description />
+          <Properties />
+          <Info>
+            <DefaultWebCapabilities />
+            <AllWebCapabilities />
+            <SupportsREST>true</SupportsREST>
+            <SupportsSOAP>false</SupportsSOAP>
+            <hasManagerPropertiesConfigurationPane>false</hasManagerPropertiesConfigurationPane>
+          </Info>
+          <Resources />
+        </ExtensionType>
+      </ExtensionTypes>
+    </ServerObjectType>
+  </AddIn>
+</ESRI.Configuration>

@@ -1,0 +1,9 @@
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\bin\Debug\TDS_SOE.dll
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\bin\Debug\TDS_SOE.pdb
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\obj\Debug\TDS_SOE.csprojResolveAssemblyReference.cache
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\obj\Debug\TDS_SOE.dll
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\obj\Debug\TDS_SOE.pdb
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\bin\Debug\MetaSolvPONDistribution.csv
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\bin\Debug\Newtonsoft.Json.dll
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\bin\Debug\Newtonsoft.Json.xml
+C:\Code\Git\TDS_MetaSolve\TDS_SOE\bin\Debug\TDS_SOE.soe
