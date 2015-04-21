@@ -43,7 +43,14 @@ namespace TDS_MetaSolve
         private string _jsArray2 = "";
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+              "file:///C:/test2.html");
+            //string text = File.ReadAllText("c:\\test2.html");
+            //webControl1.LoadHTML(text);
+            return;
+            string path = @"C:\test2.html"; //C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug";
+            webControl1.Source = new Uri(path);
+            return;
             string html = @"
                 <!DOCTYPE html>
                 <html>
@@ -153,6 +160,12 @@ function GetStringInArray(portNumber)
               }).then(function(data) {
                 DrawTraceResults(data);
               });*/
+        }
+
+        private void Awesomium_Windows_Forms_WebControl_ShowCreatedWebView(object sender, Awesomium.Core.ShowCreatedWebViewEventArgs e)
+        {
+            string path = @"C:\test2.html"; //C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug";
+            webControl1.Source = new Uri(path);
         }
     }
 }

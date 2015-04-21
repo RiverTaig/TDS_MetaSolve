@@ -5,26 +5,44 @@
     <meta charset="utf-8">
     <title>MetaSolve Viewer</title>
     <style type="text/css">
-        #port{
-            color:#2FB4E9;
-            font-weight: bold;
+        .portRow{
+            color:#FFDD00;
+            background-color: #241F0C;
+            font-weight: 800;
             font-size:14px;
+            text-align: center;
+        }
+        .colName{
+            font-size:12px;
+            font-weight:bold;
+            color: #009B3E;
+        }        
+        .even{
+            font-size:10px;
+            background-color: #ffffff;
+        }
+        .odd{
+            font-size:10px;
+            background-color: #cccccc;
         } 
-        #dynamicContent{
+        .dynamicContent{
+            background-color: #2FB4E9;
+            display:none;
+            //width: 150px;
             position: absolute;
-            left: 450px;
+            left: 250px;
             top: 10px;
             z-index: 5;
         } 
         #header{
             color:#000000;
-            background-color: #009B3E;
+            //background-color: #009B3E;
             font-weight: bold;
             width: 100px;
             font-size:12px;
         }
         #value{
-            color:#000000;
+            //color:#000000;
             background-color: #FFFFFF;
             font-size:10px;
         }        
@@ -37,7 +55,7 @@
         var cw = 0;
         var ch = 0;
         $( document ).ready(function() {
-            //alert("ready");
+            alert("ready");
             c = document.getElementById('myCanvas');
             cw = c.width;
             ch = c.height;
@@ -99,57 +117,66 @@
         {
                 var c = document.getElementById('myCanvas');
                 c.addEventListener('mousemove', function(evt) {
+                    var dc = $('.dynamicContent');
+                    dc.hide();
+                }, false);
+                c.addEventListener('mousedown', function(evt) {
 
                     var portNumber = GetPortNumberUnderCursor(evt,0,0);            
                     //alert(portNumber);       
                     var msd = GetMSDAtPort(portNumber); //metaSolveData[portNumber-1];
-                    var message = "No Data";
+                    $('#port').html("Port: " + portNumber);
                     if(msd != null){
-                        message = 
-                        "<div id='port'>PORT: " + portNumber  + "</div><br>"
-                        + "<div id='header'>Exchange</div>"
-                        + "<div id='value'>" + msd.Exchange + "</div>"
-                        + "<div id='header'>Cable Name</div>"
-                        + "<div id='value'>" + msd.CableName + "</div>"
-                        + "<div id='header'>Fiber Pair</div>"
-                        + "<div id='value'>" + msd.FiberPair + "</div>"
-                        + "<div id='header'>Remarks</div>"
-                        + "<div id='value'>" + msd.Remarks + "</div>"
-                        + "<div id='header'>Status</div>"
-                        + "<div id='value'>" + msd.Status + "</div>"
-                        + "<div id='header'>Cable Type</div>"
-                        + "<div id='value'>" + msd.CableType + "</div>"
-                        + "<div id='header'>DSA Number</div>"
-                        + "<div id='value'>" + msd.DSANum + "</div>"
-                        + "<div id='header'>Access Point</div>"
-                        + "<div id='value'>" + msd.AccessPoint + "</div>"
-                        + "<div id='header'>Route</div>"
-                        + "<div id='value'>" + msd.Route + "</div>"
-                        + "<div id='header'>Pedestal</div>"
-                        + "<div id='value'>" + msd.Pedestal + "</div>"
-                        + "<div id='header'>AP Address</div>"
-                        + "<div id='value'>" + msd.ApAddress + "</div>"
-                        + "<div id='header'>Map</div>"
-                        + "<div id='value'>" + msd.Map + "</div>"
-                        + "<div id='header'>Condition</div>"
-                        + "<div id='value'>" + msd.Condition + "</div>"
-                        + "<div id='header'>Comment</div>"
-                        + "<div id='value'>" + msd.Comment + "</div>"
-                        + "<div id='header'>Circuit ID</div>"
-                        + "<div id='value'>" + msd.CircuitID + "</div>"
-                        + "<div id='header'>Circuit Design ID</div>"
-                        + "<div id='value'>" + msd.CircuitDesignID + "</div>"
-                        + "<div id='header'>EUL Name</div>"
-                        + "<div id='value'>" + msd.EULName + "</div>"
-                        + "<div id='header'>Street Address</div>"
-                        + "<div id='value'>" + msd.StreetAddress + "</div>"
-                        + "<div id='header'>Additional Info</div>"
-                        + "<div id='value'>" + msd.AddlInfo + "</div>"
-                        + "<div id='header'>CLLI Code</div>"
-                        + "<div id='value'>" + msd.CLLICode + "</div>"
-                        ;
+                        $('#exchangeValue').html(msd.Exchange);
+                        $('#cableNameValue').html(msd.CableName);
+                        $('#fiberPairValue').html(msd.FiberPair);
+                        $('#remarsValue').html(msd.Remarks);
+                        $('#statusValue').html(msd.Status);
+                        $('#cableTypeValue').html(msd.CableType);
+                        $('#dsaNumberValue').html(msd.DSANum);
+                        $('#accessPointValue').html(msd.AccessPoint);
+                        $('#cableNameValue').html(msd.CableName);
+                        $('#routeValue').html(msd.Route);
+                        $('#pedestalValue').html(msd.Pedestal);
+                        $('#apAddressValue').html(msd.ApAddress);
+                        $('#mapValue').html(msd.Map);
+                        $('#conditionValue').html(msd.Condition);
+                        $('#commentValue').html(msd.Comment);
+                        $('#circuitIDValue').html(msd.CircuitID);
+                        $('#circuitDesignIDValue').html(msd.CircuitDesignID);
+                        $('#eulNameValue').html(msd.EULName);
+                        $('#streetAddressValue').html(msd.StreetAddress);
+                        $('#additionalInfoValue').html(msd.AddlInfo);
+                        $('#clliCodeValue').html(msd.CLLICode);                        
                     }
-                    document.getElementById('dynamicContent').innerHTML = message ;//+ ' ' + metaSolve[portNumber];
+                    else
+                    {
+                        var columns = ['exchange','cableName','fiberPair','remarks','status','cableType','dsaNumber',
+                        'accessPoint','route','pedestal','apAddress','map','condition','comment','circuitID', 'circuitDesignID',
+                        'eulName','streetAddress','additionalInfo','clliCode'];
+                        for(var i = 0; i < columns.length; i++){
+                            $("#" + columns[i] + "Value").html("No Data");
+                        }
+                    }
+                    var dc = $('.dynamicContent');//document.getElementByClass('dynamicContent');
+                    dc.mousedown(function() {
+                        dc.hide();
+                    });
+                    var mc = $('#myCanvas');
+                    //alert(dc.height());
+                    var aboveMe = evt.pageY - dc.height();
+                    var leftOfMe = evt.pageX - dc.width();
+
+                    var yPos = aboveMe > 0 ? aboveMe : evt.pageY;
+                    if(yPos + dc.height() > mc.height()){
+                        yPos = mc.height() - dc.height();
+                    }
+                    var xPos = leftOfMe > 0 ? leftOfMe : evt.pageX;
+                    //alert(leftOfMe);
+                    dc.css({'top': yPos,'left': xPos});
+ 
+                    dc.show();
+
                 }, false);
 
                 var ctx = c.getContext('2d');
@@ -232,6 +259,30 @@
         Your browser does not support the HTML5 canvas tag.
     </canvas>
 
-    <div id='dynamicContent' > Content here </div>
+    <div class='dynamicContent' >
+        <TABLE width=200>
+            <tr class='portRow' ><td colspan=2><div id="port"/>PORT</td></tr>
+            <tr class='even'><td class='colName'>Exchange</td><td id='exchangeValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Cable Name</td><td id='cableNameValue'> - </td></tr>
+            <tr class='even'><td class='colName'>Fiber Pair</td><td id='fiberPairValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Remarks</td><td id='remarksValue'> - </td></tr>
+            <tr class='even'><td class='colName'>Status</td><td id='statusValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Cable Type</td><td id='cableTypeValue'> - </td></tr>
+            <tr class='even'><td class='colName'>DSA Number</td><td id='dsaNumberValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Access Point</td><td id='accessPointValue'> - </td></tr>
+            <tr class='even'><td class='colName'>Route</td><td id='routeValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Pedestal</td><td id='pedestalValue'> - </td></tr>
+            <tr class='even'><td class='colName'>AP Address</td><td id='apAddressValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Map</td><td id='mapValue'> - </td></tr>
+            <tr class='even'><td class='colName'>Condition</td><td id='conditionValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Comment</td><td id='commentValue'> - </td></tr>
+            <tr class='even'><td class='colName'>Circuit ID</td><td id='circuitIDValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Circuit Design ID</td><td id='circuitDesignIDValue'> - </td></tr>
+            <tr class='even'><td class='colName'>EUL Name</td><td id='eulNameValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>Street Address</td><td id='streetAddressValue'> - </td></tr>
+            <tr class='even'><td class='colName'>Additional Info Address</td><td id='additionalInfoValue'> - </td></tr>
+            <tr class='odd'><td class='colName'>CLLI Code</td><td id='clliCodeValue'> - </td></tr>
+        </TABLE>
+    </div>
 </body>
 </html>

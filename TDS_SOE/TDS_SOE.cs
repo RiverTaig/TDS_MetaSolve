@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Linq;
 using System.IO;
 using System.Text;
@@ -35,7 +36,7 @@ namespace TDS_SOE
     public class TDS_SOE : IServerObjectExtension, IObjectConstruct, IRESTRequestHandler
     {
         private string soe_name;
-
+        
         private IPropertySet configProps;
         private IServerObjectHelper serverObjectHelper;
         private ServerLogger logger;
@@ -88,12 +89,25 @@ namespace TDS_SOE
         {
             RestResource rootRes = new RestResource(soe_name, false, RootResHandler);
 
-            RestOperation sampleOper = new RestOperation("MetaSolveOperation",
+            RestOperation MetaSolvOper = new RestOperation("MetaSolveOperation",
                                                       new string[] { "CableName", "FiberName" },
                                                       new string[] { "json" },
                                                       GetMetaSolveDataOperHandler);
 
-            rootRes.operations.Add(sampleOper);
+            rootRes.operations.Add(MetaSolvOper);
+
+            RestOperation SetZoomOper = new RestOperation("SetMetaSolveZoomOperation",
+                                          new string[] { "Pedestal","FieldToQuery", "FeatureClassName" },
+                                          new string[] { "json" },
+                                          SetMetaSolveZoomOperHandler);
+
+            RestOperation GetZoomOper = new RestOperation("GetMetaSolveZoomOperation",
+                              new string[] { "Ignored" },
+                              new string[] { "json" },
+                              GetMetaSolveZoomOperHandler);
+
+            rootRes.operations.Add(SetZoomOper);
+            rootRes.operations.Add(GetZoomOper);
 
             return rootRes;
         }
@@ -107,7 +121,63 @@ namespace TDS_SOE
 
             return Encoding.UTF8.GetBytes(result.ToJson());
         }
+        
+        private byte[] SetMetaSolveZoomOperHandler(NameValueCollection boundVariables,
+                                  JsonObject operationInput,
+                                      string outputFormat,
+                                      string requestProperties,
+                                  out string responseProperties)
+        {
+            responseProperties = null;
+            string pedestal;
+            bool found = operationInput.TryGetString("Pedestal", out pedestal);
+            if (!found || string.IsNullOrEmpty(pedestal))
+                throw new ArgumentNullException("Pedestal");
 
+            string fieldToQuery;
+            found = operationInput.TryGetString("FieldToQuery", out fieldToQuery);
+            if (!found || string.IsNullOrEmpty(pedestal))
+                throw new ArgumentNullException("FieldToQuery");
+
+            string featureClassName;
+            found = operationInput.TryGetString("FeatureClassName", out featureClassName);
+            if (!found || string.IsNullOrEmpty(pedestal))
+                throw new ArgumentNullException("FeatureClassName");
+
+
+            MetaSolveZoomData mszd = new MetaSolveZoomData();
+            //IFeatureClass fc = GetFeatureClass(featureClassName);
+            //IQueryFilter qf = new QueryFilterClass();
+            //qf.WhereClause = fieldToQuery + " = '" + pedestal + "'";
+            //IFeatureCursor feCur = fc.Search(qf, false);
+            //IFeature fe = feCur.NextFeature();
+            //IPoint pnt = (IPoint)fe.Shape;
+            double x = 0;// pnt.X;
+            double y = 0;// pnt.Y;
+            mszd.Pedestal = pedestal;
+            mszd.X = x;
+            mszd.Y = y;
+            mszd.RequestedTime = DateTime.Now;
+            Random rand = new Random();
+            mszd.RandomID = rand.Next();
+            //Marshal.FinalReleaseComObject(feCur);
+            _mszd = mszd;
+            String jsonString = JsonConvert.SerializeObject(_mszd);
+            return Encoding.UTF8.GetBytes(jsonString);
+
+        }
+        private static MetaSolveZoomData _mszd = null;
+        private byte[] GetMetaSolveZoomOperHandler(NameValueCollection boundVariables,
+                                          JsonObject operationInput,
+                                              string outputFormat,
+                                              string requestProperties,
+                                          out string responseProperties)
+        {
+            responseProperties = null;
+            String jsonString = JsonConvert.SerializeObject(_mszd);
+            return Encoding.UTF8.GetBytes(jsonString);
+
+        }
         private byte[] GetMetaSolveDataOperHandler(NameValueCollection boundVariables,
                                                   JsonObject operationInput,
                                                       string outputFormat,
@@ -168,8 +238,43 @@ namespace TDS_SOE
             String jsonString = JsonConvert.SerializeObject(metaSolveDatas);
             return Encoding.UTF8.GetBytes(jsonString);
         }
-    }
+        //private static Dictionary<string, IFeatureClass> _cachedFeatureClass = new Dictionary<string, IFeatureClass>();
+        /*      public  IFeatureClass GetFeatureClass(string nameToQuery)
+               {
+                   IMapServer3 mapServer = (IMapServer3)serverObjectHelper.ServerObject;
+                   string mapName = mapServer.DefaultMapName;
+                   IMapLayerInfo layerInfo;
+                   IMapLayerInfos layerInfos = mapServer.GetServerInfo(mapName).MapLayerInfos;
+                   // Find the index position of the map layer to query.
+                   int c = layerInfos.Count;
+                   int layerIndex = 0;
+                   for (int i = 0; i < c; i++)
+                   {
+                       try
+                       {
+                           layerInfo = layerInfos.get_Element(i);
+                           IMapServerDataAccess dataAccess = (IMapServerDataAccess)mapServer;
+                           IFeatureClass fc = (IFeatureClass)dataAccess.GetDataSource(mapName, i);
+                           string fcName = ((IDataset)fc).Name;
+                           if (fcName.ToUpper() == nameToQuery.ToUpper())
+                           {
+                               return fc;
+                           }
+                       }
+                       catch { }
+                   }
+                   return null;
+               }*/
 
+    }
+    public class MetaSolveZoomData
+    {
+        public double X { get; set; }
+        public double Y { get; set; }
+        public string Pedestal { get; set; }
+        public DateTime RequestedTime { get; set; }
+        public int RandomID { get; set; }
+    }
     public class MetaSolveData
     {
         public String Exchange { get; set; }
@@ -197,4 +302,5 @@ namespace TDS_SOE
         public Double Y { get; set; }
         #endregion
     }
+
 }

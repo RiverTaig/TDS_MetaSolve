@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDS_MetaSolve", "TDS_MetaSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDS_SOE", "TDS_SOE\TDS_SOE.csproj", "{7E08C38B-748F-4B2B-A76D-86B726060B02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDS_RightClickTool", "TDS_RightClickTool\TDS_RightClickTool.csproj", "{2EEEE7C8-8E9A-4700-A245-1338BA648DBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{7E08C38B-748F-4B2B-A76D-86B726060B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E08C38B-748F-4B2B-A76D-86B726060B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E08C38B-748F-4B2B-A76D-86B726060B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEEE7C8-8E9A-4700-A245-1338BA648DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEEE7C8-8E9A-4700-A245-1338BA648DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEEE7C8-8E9A-4700-A245-1338BA648DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEEE7C8-8E9A-4700-A245-1338BA648DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

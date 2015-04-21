@@ -1,0 +1,14 @@
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\test2.html
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\TDS_RightClickTool.dll
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\TDS_RightClickTool.pdb
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\TDS_RightClickTool.tlb
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\Newtonsoft.Json.dll
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\Newtonsoft.Json.xml
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\obj\Debug\TDS_RightClickTool.csprojResolveAssemblyReference.cache
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\obj\Debug\TDS_RightClickTool.Form1.resources
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\obj\Debug\TDS_RightClickTool.Properties.Resources.resources
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\obj\Debug\TDS_RightClickTool.csproj.GenerateResource.Cache
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\obj\Debug\TDS_RightClickTool.dll
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\obj\Debug\TDS_RightClickTool.pdb
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\ESRI.ArcGIS.ADF.Connection.Local.dll
+C:\Code\Git\TDS_MetaSolve\TDS_RightClickTool\bin\Debug\ESRI.ArcGIS.ADF.Connection.Local.xml

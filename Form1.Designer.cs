@@ -50,6 +50,7 @@
             this.webControl1.Size = new System.Drawing.Size(900, 800);
             this.webControl1.Source = new System.Uri("about:blank", System.UriKind.Absolute);
             this.webControl1.TabIndex = 3;
+            this.webControl1.ShowCreatedWebView += new Awesomium.Core.ShowCreatedWebViewEventHandler(this.Awesomium_Windows_Forms_WebControl_ShowCreatedWebView);
             // 
             // button1
             // 
