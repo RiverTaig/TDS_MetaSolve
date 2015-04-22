@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>MetaSolve Viewer</title>
+    <title>MetaSolv Viewer</title>
     <style type="text/css">
         .portRow{
             color:#FFDD00;
@@ -92,7 +92,7 @@
             //alert('GetMetaSolveData');
             $.ajax({
 
-                url: "http://lake:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=asdf&FiberName=asdf&f=pjson"
+                url: "http://localhost:6080/arcgis/rest/services/ElectricNetworkExisting/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=x&FiberName=x&f=pjson"
             }).done(function(data) {
                 //alert('done');
                 metaSolveData = $.parseJSON(data);
@@ -134,7 +134,7 @@
                         {
                             $.ajax({
 
-                                url: "http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/SetMetaSolveZoomOperation?Pedestal=" +  msd.Pedestal +"&FieldToQuery=COMMENTS&FeatureClassName=SECOM.ARCFM.PATCHLOCATION&f=pjson"
+                                url: "http://localhost:6080/arcgis/rest/services/ElectricNetworkExisting/MapServer/exts/TDS_SOE/SetMetaSolveZoomOperation?Pedestal=" +  msd.Route + "-" + msd.Pedestal  +"&FieldToQuery=ignore&FeatureClassName=ignore&f=pjson"
                             }).done(function(data) {
                                 //alert("it worked " + data.toString());
                             }).always(function(data,status,errorThrown){
@@ -211,37 +211,29 @@
                         var num = Math.random();
                         //var status = "Inservice";
 
-                        var status = "NOT Inservice" ;
+                        var status = "Unassigned" ;
                         var xx = x+10;
                         var yy = y+10;
                         var pn = GetPortNumberUnderCursor(null,xx,yy);
 
                         var msdAtPort = GetMSDAtPort(pn);
                         try{
-                            if(msdAtPort.Status == "Inservice")
-                            {
-                                //alert("Inservice");
-                                status = "Inservice";
-                            }
-                            else
-                            {
-                                //alert("not inservice");
-                            }
+                            status = msdAtPort.Status;
                         }
                         catch(Exception){
                             //alert("error");
                         }
-
-
                         
                         if(status == "Inservice"){
                         //if(num > .5){ //if(msdAtPort.Status == "inservice"){
                             ctx.fillStyle = '#ffdd00';
                             
                         }
-                        else
-                        {
+                        else if (status == "Unassigned") {
                             ctx.fillStyle = '#a0a0a0';
+                        }
+                        else{
+                            ctx.fillStyle = '#ff00ff';
                         }
                         ctx.fill();
                         ctx.lineWidth = 1;

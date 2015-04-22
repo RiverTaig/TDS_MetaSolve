@@ -98,6 +98,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigHelper.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +131,10 @@
     <None Include="TDS.jpg" />
     <None Include="metasolv.gif" />
     <None Include="Arrows.PNG" />
+    <None Include="TDSMetaSolv.PNG" />
+    <Content Include="TDSMetaSolvConfig.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="test2.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

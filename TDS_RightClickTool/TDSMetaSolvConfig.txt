@@ -1,0 +1,8 @@
+﻿PedestalLayerName|PatchLocation
+FieldOnLayerHavingMetaSolvId|Comments
+FieldOnCabinetMatchingMetaSolvDataCableNameField|Name
+PathToMetasolveHTMLFile|C:/mm_tech_marketing/tds/Metasolv.html
+PathToChromeWebBrowser|C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+RestEndPointForMetaSolveOperation|http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=a&FiberName=b&f=pjson
+RestEndPointForZoomOperation|http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/GetMetaSolveZoomOperation?Ignored=sdfg&f=pjson
+ToolName|TDS MetaSolv Viewer

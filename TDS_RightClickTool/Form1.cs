@@ -52,8 +52,8 @@ namespace TDS_RightClickTool
         private void btnViewPorts_Click(object sender, EventArgs e)
         {
             timer1.Enabled = checkBox1.Checked;
-            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
-            "file:///C:/test2.html");
+            System.Diagnostics.Process.Start(ConfigHelper.GetStringValue("PathToChromeWebBrowser"),
+            "file:///" + ConfigHelper.GetStringValue("PathToMetasolveHTMLFile"));   
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace TDS_RightClickTool
                 client.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705;)");
 
                 // actually execute the GET request
-                string ret = client.DownloadString("http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/GetMetaSolveZoomOperation?Ignored=sdfg&f=pjson");
+                string ret = client.DownloadString(ConfigHelper.GetStringValue("RestEndPointForZoomOperation"));
                 MetaSolveZoomData mszd = JsonConvert.DeserializeObject<MetaSolveZoomData>(ret);
                 if (mszd == null)
                 {
@@ -101,12 +101,13 @@ namespace TDS_RightClickTool
                     ILayer ly = enlyr.Next();
                     while (ly != null)
                     {
-                        if (ly.Name.ToUpper() == "PATCHLOCATION")
+                        if (ly.Name.ToUpper() == ConfigHelper.GetStringValue("PedestalLayerName").ToUpper() )
                         {
                             IFeatureLayer fl = (IFeatureLayer)ly;
                             IFeatureClass fc = fl.FeatureClass;
                             IQueryFilter qf = new QueryFilterClass();
-                            qf.WhereClause = "COMMENTS = '" + pedestal + "'";
+                            qf.WhereClause = ConfigHelper.GetStringValue("FieldOnLayerHavingMetaSolvId") + " = '" + pedestal + "'";
+                            //MessageBox.Show("Where clause: " + qf.WhereClause);
                             IFeatureCursor feCur = fc.Search(qf, false);
                             IFeature fe = feCur.NextFeature();
                             IPoint pnt = fe.ShapeCopy as IPoint;
@@ -164,13 +165,13 @@ namespace TDS_RightClickTool
                 try
                 {
                     // actually execute the GET request
-                    string ret = client.DownloadString("http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=a&FiberName=b&f=pjson");
+                    string ret = client.DownloadString(ConfigHelper.GetStringValue("RestEndPointForMetaSolveOperation"));
                     List<MetaSolveData> msds = JsonConvert.DeserializeObject<List<MetaSolveData>>(ret);
                     string textBoxText =
-                    @"Cabinet " + _cabinet + "\r\n" +
+                    @"" + _cabinet + "\r\n" +
                      "Inservice Ports: INSERVICE  \r\n" +
                      "Unassigned Ports: UNAVAILABLE \r\n" +
-                     "Other Ports: OTHER \r\n ";
+                     "Pending Install: OTHER \r\n ";
                     int inserviceCount = 0;
                     int otherCount = 0;
                     int unavailableCount = 0;
@@ -193,7 +194,7 @@ namespace TDS_RightClickTool
                         newText = newText.Replace("OTHER", otherCount.ToString());
                         textBox1.Text = newText;
                         this.Refresh();
-                        System.Threading.Thread.Sleep(10);
+                        System.Threading.Thread.Sleep(7);
                         Application.DoEvents();
                     }
                 }

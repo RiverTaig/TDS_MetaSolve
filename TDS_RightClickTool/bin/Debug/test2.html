@@ -55,12 +55,13 @@
         var cw = 0;
         var ch = 0;
         $( document ).ready(function() {
-            alert("ready");
+            //alert("ready");
             c = document.getElementById('myCanvas');
             cw = c.width;
             ch = c.height;
-            //alert("c is set " + c.width);
+            
             CreatePorts();
+            //alert("done creat ports ");
           });
         function getMousePos( evt) {
             return {
@@ -90,12 +91,15 @@
         function GetMetaSolveData() {
             //alert('GetMetaSolveData');
             $.ajax({
-                url: "http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=asdf&FiberName=asdf&f=pjson"
-            }).then(function(data) {
-                
+
+                url: "http://lake:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/MetaSolveOperation?CableName=asdf&FiberName=asdf&f=pjson"
+            }).done(function(data) {
+                //alert('done');
                 metaSolveData = $.parseJSON(data);
                 ColorGrid()
                 //alert("asdf " + data);
+            }).always(function(data,status,errorThrown){
+                //alert('always et: ' + errorThrown);
             });
 
         }
@@ -117,14 +121,27 @@
         {
                 var c = document.getElementById('myCanvas');
                 c.addEventListener('mousemove', function(evt) {
-                    var dc = $('.dynamicContent');
-                    dc.hide();
+                    //var dc = $('.dynamicContent');
+                    //dc.hide();
                 }, false);
                 c.addEventListener('mousedown', function(evt) {
-
+                    
                     var portNumber = GetPortNumberUnderCursor(evt,0,0);            
                     //alert(portNumber);       
                     var msd = GetMSDAtPort(portNumber); //metaSolveData[portNumber-1];
+                    //alert("port / pedestal " + portNumber + " / " +  msd.Pedestal);
+                        if(event.ctrlKey)
+                        {
+                            $.ajax({
+
+                                url: "http://localhost:6080/arcgis/rest/services/TDS/MapServer/exts/TDS_SOE/SetMetaSolveZoomOperation?Pedestal=" +  msd.Pedestal +"&FieldToQuery=COMMENTS&FeatureClassName=SECOM.ARCFM.PATCHLOCATION&f=pjson"
+                            }).done(function(data) {
+                                //alert("it worked " + data.toString());
+                            }).always(function(data,status,errorThrown){
+                                //alert('always ');
+                            });
+                            return;
+                        }                    
                     $('#port').html("Port: " + portNumber);
                     if(msd != null){
                         $('#exchangeValue').html(msd.Exchange);
@@ -159,9 +176,11 @@
                         }
                     }
                     var dc = $('.dynamicContent');//document.getElementByClass('dynamicContent');
-                    dc.mousedown(function() {
+                    dc.mousedown(function(event) {
                         dc.hide();
                     });
+
+
                     var mc = $('#myCanvas');
                     //alert(dc.height());
                     var aboveMe = evt.pageY - dc.height();

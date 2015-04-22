@@ -64,13 +64,10 @@ namespace TDS_RightClickTool
         {
             try
             {
-                //System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
-                //"file:///C:/test2.html");
-                //return;
                 pEnumItems.Reset();
                 ID8GeoAssoc ga = (ID8GeoAssoc) pEnumItems.Next();
                 IRow r = ga.AssociatedGeoRow;
-                Form1 f1 = new Form1(ga.AssociatedGeoRow.OID.ToString());
+                Form1 f1 = new Form1(r.get_Value(r.Fields.FindField( ConfigHelper.GetStringValue("FieldOnCabinetMatchingMetaSolvDataCableNameField")  )).ToString());
                 f1.Show();
                 //MessageBox.Show("Hello world");
             }
@@ -132,7 +129,7 @@ namespace TDS_RightClickTool
         {
             get
             {
-                return "TDS Meta-Solve Viewer";
+                return ConfigHelper.GetStringValue("ToolName");
             }
         }
 
